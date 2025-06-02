@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.upper-header{
+    height: 80px;
+    /* width: 120vw; */
+    display: flex;
+    background-color:  rgb(35,37,96);
+    padding: 20px;
+    gap: 40px;
+}
+body{
+    padding: 10px;
+}
+.button{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    height: 35px;
+    width: 70px;
+    border: none;
+    border-radius:0 17px 0 17px;
+    border-width:4px 50px 4px 50px;
+    transition: all 0.4s ease-in-out;
+}
+.button:hover{
+    cursor: pointer;
+    border-radius: 17px 0 17px 0 ;
+    outline: 3.5px solid blue;
+}
+.Input{
+    height: 35px;
+    max-width: 380px;
+    padding-left: 30px;
+    border-radius: 13px;
+    outline: none;
+    flex-grow: 1;
+    border: none;
+}
+.circle{
+    border-radius: 700px;
+    background-color: rgb(84,147,149);
+    height: 150x;
+    width: 40px;
+    transition: all 0.5s ;
+    border: 6px solid rgb(211,176,136);
+}
+.circle:hover{
+    cursor: pointer;
+    border: 7px dotted rgb(211,176,136);
+}
+.grid-parent{
+    display: grid;
+    background-color: rgba(238, 248, 248, 0.623);
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr;
+}
+.aside{
+    grid-row: 1/3;
+    background-color: violet;
+    padding: 40px;
+}
+p{
+    margin: 10px;
+}
+.Logo{
+    /* height: 200px; */
+    width: 100%;
+}
+
+.header-image{
+    grid-column: 2/3;
+}
+.Main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    grid-auto-rows: 250px ;
+    align-content: start;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin: 20px;
+}
+.Main>div{
+    background-color: rgb(241, 233, 233);
+    border-radius: 20px;
+}
+/* .Main>div:first-child{
+    grid-column: 1/4;
+    background-color: red;
+     
+    width: 900px; 
+    align-self: center;
+    justify-self: center;
+} */
+/* By default all the childs will strecth to the max height and width of the column and rows */
+/* if we give the child height and width then it will displayed in the rows and columns according to its height width given */
+
+

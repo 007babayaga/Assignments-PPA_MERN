@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+    padding: 1.5rem;
+}
+h2{
+    margin-bottom: 20px;
+}
+.first-div{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(180deg,wheat,yellow);
+    outline: 2px solid orange;
+    border-radius: 50%;
+}
+.second-div{
+    height: 16px;
+    width: 16px;
+    background:radial-gradient(rgb(189, 101, 101),rgb(99, 4, 4));
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.third-div{
+    height: 16px;
+    width: 10px;
+    background:radial-gradient(rgb(189, 101, 101),rgb(99, 4, 4));
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.fourth-div{
+    height: 16px;
+    width: 10px;
+    background:radial-gradient(rgb(189, 101, 101),rgb(99, 4, 4));
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.fifth-div{
+    height: 4px;
+    width: 32px;
+    background:radial-gradient(rgb(189, 101, 101),rgb(99, 4, 4));
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20%;
+}
+.sixth-div{
+    background:radial-gradient(rgb(189, 101, 101),rgb(99, 4, 4));
+    width: 32px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.seventh-div{
+    background:radial-gradient(rgb(189, 101, 101),rgb(99, 4, 4));
+    width: 32px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius:60px 60px 90px 90px ;
+}

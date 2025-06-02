@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    background-color: rgb(35,37,96);
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    gap: 40px;
+}
+
+.buttons{
+    color: black;
+    height: 35px;
+    width: 90px;
+    padding:8px;
+    text-align: center;
+    background-color: rgb(234,245,253);
+    border-radius:0 40px 0 40px;
+    border-width:4px 50px 4px 50px;
+    transition:  0.7s ease-in-out ;
+    flex-shrink: 0;
+    
+}
+.buttons:hover{
+    cursor: pointer;
+    border-radius: 40px 0px 40px 0px;
+    outline: 4px solid blue;
+    
+}
+
+
+.search-bar{
+    height: 35px;
+    max-width: 380px;
+    padding-left: 30px;
+    border-radius: 13px;
+    outline: none;
+    flex-grow: 1;
+    border: none;
+    
+}
+
+
+.circle{
+    border-radius: 700px;
+    background-color: rgb(84,147,149);
+    height: 150x;
+    width: 40px;
+    transition: all 0.5s ;
+    border: 6px solid rgb(211,176,136);
+}
+.circle:hover{
+    cursor: pointer;
+    border: 7px dotted rgb(211,176,136);
+}
+

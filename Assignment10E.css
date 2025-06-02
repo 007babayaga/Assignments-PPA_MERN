@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 16px;
+    background-color: bisque;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+
+.parent-container {
+    width: fit-content;
+    margin: auto;
+}
+
+
+.emoji-face {
+    position: relative;
+    background: linear-gradient(#FCF7C3, #EFE323, #F0EA0D);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    outline: 2px solid #E7B20D;
+    margin: 16px;
+    position: relative;
+}
+
+
+.eye-ball-circular {
+    position: absolute;
+    height: 14px;
+    width: 10px;
+    background: radial-gradient(#C3830D, #8E5F10);
+    border-radius: 50%;
+}
+
+
+.eye-ball-circular.left {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+
+.eye-ball-circular.right {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+
+.mouth {
+    background: radial-gradient(#C3830D, #8E5F10);
+}
+
+
+.mouth-flat {
+    height: 4px;
+    width: 32px;
+    left: 50%;
+    border-radius: 8px;
+    position: absolute;
+    top: 70px;
+    left: 35px;
+}
+
+
+.mouth-round {
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    position: absolute;
+    top: 70px;
+    left: 35px;
+}
+
+
+.mouth-amazed {
+    height: 16px;
+    width: 32px;
+    border-radius: 8px;
+    position: absolute;
+    top: 70px;
+    left: 35px;
+}
+
+
+.mouth-worried {
+    height: 16px;
+    width: 32px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 35px;
+}
+
+
+/* .looking-right .eye-ball-circular.left {
+
+}
+
+
+.looking-right .eye-ball-circular.right {
+   
+} */

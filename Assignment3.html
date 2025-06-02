@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1>Registration form</h1>
+    <form action="/Thanks.html">
+        <label for="reg">Name : </label> <input type="text" placeholder="Enter your name" name="name" id="reg">
+        <br>
+        <br>
+        <label for="regI">mentor : </label> <input type="text"  value ="rajat" name="mentor" id="regI" readonly>
+        <br>
+        <br>
+        <label for="em">Email : </label> <input type="text" placeholder="enter your email" name="email" id="em">
+        <br>
+        <br>
+        <label for="pass">Password : </label> <input type="password" placeholder="Enter your password" name="pass"
+            id="pass" maxlength="10">
+        <br>
+        <br>
+        <label>Gender : </label> <input type="radio" name="gender" value="ml" id="gen"><label for="gen">Male</label>
+        <input type="radio" name="gender" value="feml" id="f"><label for="f">Female</label>
+        <input type="radio" name="gender" value="other" id="ot"><label for="ot">Male</label>
+        <br>
+        <br>
+        <label>Hobbies : </label>
+        <br>
+        <input type="checkbox" name="hobby" value="Reading" id="h" checked hidden> <input type="checkbox" name="jjjj" value="Reading" id="h" checked disabled ><label for="h">Reading</label>
+        <br>
+        <input type="checkbox" name="hobby" value="travel" id="i"><label for="i">Travelling</label>
+        <br>
+        <input type="checkbox" name="hobby" value="cook" id="j"><label for="j">cooking</label>
+        <br>
+        <input type="checkbox" name="hobby" value="sports" id="k"><label for="k">sports</label>
+        <br>
+        <br>
+        <label for="ct">City : </label> <select name="city" id="ct">
+            <option>delhi</option>
+            <option>mumbai</option>
+            <option>chennai</option>
+            <option>kolkata</option>
+        </select>
+        <br>
+        <br>
+        <label for="dob">Date of birth : </label> <input type="date" name="dob" id="dob">
+        <br>
+        <br>
+        <label for="po">Phone Number : </label> <input type="number" placeholder="Enter your phone number" name="phno"
+            value="91" id="po" maxlength="10">
+        <br>
+        <br>
+        <label for="tt">Address : </label>
+        <br>
+        <textarea rows="4" cols="25" id="tt"></textarea>
+        <br>
+        <br>
+        <button type=" submit">Submit</button>
+    </form>
+</body>
+
+</html>
